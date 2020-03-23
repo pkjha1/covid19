@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/cover.png" width="400" />
 
-COVID-19 (2019-nCOV / SARS-CoV-2) Coronavirus Map (https://sharp-meitner-3f4b66.netlify.com) is an interactive, animated map for the COVID-19 coronavirus outbreak.
+COVID-19 (2019-nCOV / SARS-CoV-2) Coronavirus Map is an interactive, animated map for the COVID-19 coronavirus outbreak.
 
 The map is based on multiple sources (see below for details). If you are interested, the integrated dataset can be found [here](https://github.com/pkjha1/covid19/blob/master/public/data/all.json). Note that numbers in different data sources may not match with each other exactly.
 
