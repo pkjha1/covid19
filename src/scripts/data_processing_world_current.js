@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 const fs = require('fs')
 
 const url =
-    'https://www.ssm.gov.mo/apps1/apps/healthdeclaration/monitor/monitor.json'
+    'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1/query?where=1%3D1&outFields=*&f=json'
 
 const getData = async (url) => {
     try {
