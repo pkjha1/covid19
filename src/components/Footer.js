@@ -21,22 +21,10 @@ export default class Footer extends Component {
                     <span>
                         <a href="https://thinkberry.in">THINK BERRY</a> 2020
                     </span>
-                    <FaInfoCircle
-                        data-tip={!(isMobile || isIPad13) ? i18n.ABOUT[lang] : null}
-                        size={18}
-                        onClick={() => this.setState({ modal: true })}
-                    />
+                    
                     
                 </div>
-                <Modal isOpen={this.state.modal} centered={true} toggle={this.toggle}>
-                    <ModalHeader toggle={this.toggle}>{i18n.ABOUT[lang]}</ModalHeader>
-                    <ModalBody className="footer-about">
-                        <div dangerouslySetInnerHTML={{ __html: i18n.ABOUT_TEXT[lang] }} />
-
-                            <span style={{ marginLeft: 15, fontSize: 19 }}>Buy me a coffee</span>
-                        </a>
-                    </ModalBody>
-                </Modal>
+              
             </Fragment>
         )
     }
