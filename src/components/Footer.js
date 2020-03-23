@@ -29,23 +29,23 @@ export default class Footer extends Component {
                     <FaGithub
                         data-tip={!(isMobile || isIPad13) ? i18n.SOURCE_CODE[lang] : null}
                         size={18}
-                        onClick={() => window.open('https://github.com/stevenliuyi/covid19')}
+                        onClick={() => window.open('https://github.com/pkjha1/covid19')}
                     />
                 </div>
                 <Modal isOpen={this.state.modal} centered={true} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>{i18n.ABOUT[lang]}</ModalHeader>
                     <ModalBody className="footer-about">
                         <div dangerouslySetInnerHTML={{ __html: i18n.ABOUT_TEXT[lang] }} />
-                        <a
+                     <!--   <a
                             className="bmc-button"
                             target="_blank"
-                            href="https://www.buymeacoffee.com/stevenliuyi"
+                            href="https://www.buymeacoffee.com/"
                             rel="noopener noreferrer"
                         >
                             <img
                                 src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
                                 alt="Buy me a coffee"
-                            />
+                            /> -->
                             <span style={{ marginLeft: 15, fontSize: 19 }}>Buy me a coffee</span>
                         </a>
                     </ModalBody>
